@@ -1,3 +1,21 @@
-1. When we upload file for new entry either in Api or Admin/Super Admin panel then file upload process  goes well upto folder creation but file doesnot get saved & we expect expect the file to be uploaded
+case 1 : While creating the new data entry along with base64 conversion of file 
 
-2. When we upload file for make a change for the old entry either in Api or Admin/Super Admin panel then file upload process  goes well upto folder creation but file doesnot get saved after 2nd time change make & we expect expect the file to be uploaded
+expected output 1 : We expect that file handling function file "file_func.php" will save the file content respectively according to the folde that has to be generated
+
+returened output 1 : the function receve the base64 converted file & crates the directery as expected it has to be done, but file does not appers in the directry as expected
+
+
+
+case 2: Whlie editing the entry with the base64 converted file that has to be uploaded
+
+expected outpu : We expect that file handling function file "file_func.php" will save the file content respectively according to the folde that has to be generated
+
+returened output : once we edit the content the function work correctly as expected but after some multiple attempt to edit content it occours the error as per case senario of case 1 that file does not              get places in respected directory even although folder has been already available
+
+
+
+case 3 : While uploading the image during registration of car from android/ios app 
+
+expected output : We expect for file to be uploaded & return json response of file details of car image & documets that has been uploaded by user during registration
+
+returned output : the api call the function to upload the file to the directory but in this case nor folder created not it returns any response of the document upload detail or any error crospondingly so that we can tackel up the issue occuring
