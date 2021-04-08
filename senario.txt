@@ -1,0 +1,3 @@
+1. When we upload file for new entry either in Api or Admin/Super Admin panel then file upload process  goes well upto folder creation but file doesnot get saved & we expect expect the file to be uploaded
+
+2. When we upload file for make a change for the old entry either in Api or Admin/Super Admin panel then file upload process  goes well upto folder creation but file doesnot get saved after 2nd time change make & we expect expect the file to be uploaded
